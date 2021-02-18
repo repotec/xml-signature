@@ -1,0 +1,124 @@
+<Message> 
+	<Header> 
+		<Sender>SAPTCOB2B</Sender> 
+		<Receiver>SABK</Receiver> 
+		<MessageType>PRMSG</MessageType> 
+		<MessageDescription>Payroll Message-202007080069</MessageDescription>
+		<TimeStamp>2020-07-08T12:13:20</TimeStamp> 
+	</Header> 
+	<Body> 
+		<PayrollMessage> 
+			<PayrollMessageRef>202007080069</PayrollMessageRef> 
+			<PayrollMessageType>MT100-Payroll</PayrollMessageType> 
+			<PayrollTransactionCount>3</PayrollTransactionCount>     
+			<PayrollTransactionAmount>XX_PAYROLL_TOTAL_AMOUNT</PayrollTransactionAmount>
+			<PayrollTransaction>
+				<SequenceNum>20070800001</SequenceNum>
+				<TransactionData>:20:20070800001
+				:32A:200608SAR1000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999999
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888888 
+				ABDULLAH  MOHAMMED
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				1000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+			<PayrollTransaction>
+				<SequenceNum>20070800002</SequenceNum>
+				<TransactionData>:20:20070800002
+				:32A:200608SAR2000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999991
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888881 
+				ABDULLAH  MOHAMMED 2
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				2000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+			<PayrollTransaction>
+				<SequenceNum>20070800003</SequenceNum>
+				<TransactionData>:20:20070800003
+				:32A:200608SAR3000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999992
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888882 
+				ABDULLAH  MOHAMMED 3
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				3000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+		</PayrollMessage>
+	</Body>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<SignedInfo>
+<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"></CanonicalizationMethod>
+<SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></SignatureMethod>
+<Reference URI="">
+<Transforms>
+<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></Transform>
+</Transforms>
+<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"></DigestMethod>
+<DigestValue>sUKOOMuFFyUUBUtPT+KDRZkJMCw=</DigestValue>
+</Reference>
+</SignedInfo>
+<SignatureValue>
+hOnB8Cv4Jpb4MTzqPWtgV8bM6AGZXq2Wg+IJTdDk0/IbCc2udcMMNXfJv2kfeEF4s2rTZ3IExhMv
+Tb9GdbUvcgUirHKv+EtH5Ji4dYaKvkC7MPBnSXBW7lgQ+msE8r+muaHXPXEIDgdnBFaFnRkyx5T8
+QWrDVpKMWC0T50h4Ay0VrFCTbO6HQO/Xm6x2MfiMDXOvK4DHCaTV7J+C7Riw0RNecVs1kfTDvOrj
+9g5e/6gDIeNdbdZPhoWEf3tvaDdBgRrbhcKIeiHkvNjgmn8K6/Z8e39zTqdJnQo76HeVmTZCb6Wp
+QdJWNak0LGitNUTjuWr0jfaq0FT4I9BDTM6ftw==
+</SignatureValue>
+<KeyInfo>
+<X509Data>
+<X509Certificate>
+MIIDcTCCAlmgAwIBAgIEFdT1aTANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJNTTEPMA0GA1UE
+CBMGWWFuZ29uMQ8wDQYDVQQHEwZZYW5nb24xDTALBgNVBAoTBFdpbmUxETAPBgNVBAsTCFdpbmVT
+b2Z0MRYwFAYDVQQDEw1ZZSBZaW50IEtvIEtvMB4XDTE4MDExMDEzNDg1NFoXDTQ1MDUyODEzNDg1
+NFowaTELMAkGA1UEBhMCTU0xDzANBgNVBAgTBllhbmdvbjEPMA0GA1UEBxMGWWFuZ29uMQ0wCwYD
+VQQKEwRXaW5lMREwDwYDVQQLEwhXaW5lU29mdDEWMBQGA1UEAxMNWWUgWWludCBLbyBLbzCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJKoff+K5cJqdA28M5qfsUNYoneVWaj+O+ffhfYy
+vlkQHWVMh2PvXhXmpPUCjdZjWcvW/4iq18ufP4bPNytbBdBcror9VeovkxcC6AfqlXIdLgxOBgBG
+qCm1n1vPXPaHwhsq+guNoMHuaYGFGnYFzLz/EsEpJcrFJB5FPRl8GSAC5nt9YRXXI7k/a4WgIAcc
+uDu2XNUM0AA/hei9dbP5mWyIm+wzetnZCQxp6xelIBANOiSMEcn8nRLAk4ZT3s1uKBCFkyMocWb3
+T7omJ8x+MFdSntC/Mc4DQXJwVYI1xeOWrU5VUFuFW8GJbMZvBpJyLg9IHFdOO/wLWUQbTEy8Pp8C
+AwEAAaMhMB8wHQYDVR0OBBYEFCXaytGGehlNeTddZ2GqIPC0zkqyMA0GCSqGSIb3DQEBCwUAA4IB
+AQCDhuP6VGJ9a7nrL1ex1HlnpOAhXqdzy3wgySCAwbHRc+w3jGO3F2c4nNAZEvrlr9GoC2MPrS8i
+gslSVu5Oqw15fKswQ8hKiwr1C+M1gVb4/oK/K2mW9OXoCcjbK+KWTaL5EzVwuD1AmuUkPGQIpv4h
+4o3F3CoQppUkFmwpI55kxpLKMvQpl0M2tP3aRm0fBq4YGPqTnfagJIGSgZWDXNe5TsFVbNhnS06K
+GwcoOqMiJnfgkAVNOsANx51EhjxlkaQUFe439cFKPAxhjVhsYudVW8UW8Lv5OtmjrNqJ4vtp3LnJ
+XTitxOoBFQCvIRR/rZvdmeA0N7R1z/uhSWiQEcvz
+</X509Certificate>
+</X509Data>
+<KeyValue>
+<RSAKeyValue>
+<Modulus>
+kqh9/4rlwmp0Dbwzmp+xQ1iid5VZqP4759+F9jK+WRAdZUyHY+9eFeak9QKN1mNZy9b/iKrXy58/
+hs83K1sF0Fyuiv1V6i+TFwLoB+qVch0uDE4GAEaoKbWfW89c9ofCGyr6C42gwe5pgYUadgXMvP8S
+wSklysUkHkU9GXwZIALme31hFdcjuT9rhaAgBxy4O7Zc1QzQAD+F6L11s/mZbIib7DN62dkJDGnr
+F6UgEA06JIwRyfydEsCThlPezW4oEIWTIyhxZvdPuiYnzH4wV1Ke0L8xzgNBcnBVgjXF45atTlVQ
+W4VbwYlsxm8GknIuD0gcV047/AtZRBtMTLw+nw==
+</Modulus>
+<Exponent>AQAB</Exponent>
+</RSAKeyValue>
+</KeyValue>
+</KeyInfo>
+</Signature></Message>

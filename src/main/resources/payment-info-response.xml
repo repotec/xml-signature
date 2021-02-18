@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<Message> 
+	<Header> 
+		<Sender>SAPTCOB2B</Sender> 
+		<Receiver>SABK</Receiver> 
+		<MessageType>PRMSG</MessageType> 
+		<MessageDescription>Payroll Message-202007080069</MessageDescription>
+		<TimeStamp>2020-07-08T12:13:20</TimeStamp> 
+	</Header> 
+	<Body> 
+		<PayrollMessage> 
+			<PayrollMessageRef>202007080069</PayrollMessageRef> 
+			<PayrollMessageType>MT100-Payroll</PayrollMessageType> 
+			<PayrollTransactionCount>3</PayrollTransactionCount>     
+			<PayrollTransactionAmount>XX_PAYROLL_TOTAL_AMOUNT</PayrollTransactionAmount>
+			<PayrollTransaction>
+				<SequenceNum>20070800001</SequenceNum>
+				<TransactionData>:20:20070800001
+				:32A:200608SAR1000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999999
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888888 
+				ABDULLAH  MOHAMMED
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				1000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+			<PayrollTransaction>
+				<SequenceNum>20070800002</SequenceNum>
+				<TransactionData>:20:20070800002
+				:32A:200608SAR2000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999991
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888881 
+				ABDULLAH  MOHAMMED 2
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				2000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+			<PayrollTransaction>
+				<SequenceNum>20070800003</SequenceNum>
+				<TransactionData>:20:20070800003
+				:32A:200608SAR3000,00
+				:50:SAUDI PUBLIC TRANSPORT CO.
+				:52A:SAMBSARI
+				:53B:/SA1230000000000009999992
+				:57A:SAMBSARI
+				:59:/SA3210000000000008888882 
+				ABDULLAH  MOHAMMED 3
+				:70:TEST PAYROLL
+				:72:1006919110
+				0,00
+				0,00
+				3000,00
+				0,00
+				</TransactionData>
+			</PayrollTransaction>
+		</PayrollMessage>
+	</Body>
+</Message>
